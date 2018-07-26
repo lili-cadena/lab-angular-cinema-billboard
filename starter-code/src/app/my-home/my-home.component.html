@@ -1,0 +1,14 @@
+
+<section class="home">
+<h1>CINEMA</h1>
+
+<div class="moviesDisp" *ngFor="let movie of movies">
+  <a [routerLink]="['/movie',movie.id]">
+    <h2>{{movie.room}}</h2>
+    <img width="100" src="{{movie.poster}}">
+    <p>
+      {{movie.title}}
+    </p>
+  </a>
+</div>
+</section>

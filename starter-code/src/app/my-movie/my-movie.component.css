@@ -1,0 +1,25 @@
+img{
+    position: absolute;
+    width:200px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.titleMov{
+    margin-left: 390px;
+}
+.movieDetail{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.movieInfo{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    margin-top: 350px;
+    margin-left: 170px;
+}

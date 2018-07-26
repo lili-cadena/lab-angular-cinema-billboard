@@ -1,0 +1,34 @@
+
+<div class="movieDetail">
+  <img src="{{movie.poster}}">
+  <b>
+    <p class="titleMov">{{movie.room}}: {{movie.title}}</p>
+  </b>
+  <div class="movieInfo">
+    <ul>
+      <b>Genres:</b>
+    <li>
+      {{movie.genres}}
+    </li>
+    <p>{{movie.year}}</p>
+    <p>{{movie.director}}</p>
+    </ul>
+    
+    <ul>
+      <b>Actors:</b>
+      <li>
+        {{movie.actors}}
+      </li>
+    </ul>
+    <ul>
+      <b>Schedule:</b>
+      <li>
+        {{movie.hours}}
+      </li>
+      <p>{{movie.synopsis}}</p>
+    </ul>
+    
+  </div>
+  
+  <button [routerLink]="['/home']">Home</button>
+</div>
